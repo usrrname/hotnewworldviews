@@ -1,0 +1,28 @@
+<html>
+<head></head>
+
+<body>
+
+<h3> I,<span id = "kimmo"> Rich</span>.</h3>
+
+<button onclick = "loop()">Refresh</button>
+
+<script>
+
+var items = [
+"Rich", "Poor", "Precious", "Risk", "Limp", "White", "Entitled", "Care", "History", "Lucky", "Precious", "Pale"];
+
+var randomItem = items[Math.floor(Math.random() * items.length)];
+
+function loop(){ 
+	for (i = 0; i < items.length; i++){
+	console.log(randomItem); 
+	
+	onclick = randomItem.replace(document.getElementById('kimmo').innerHTML = " " + randomItem;);
+	}
+
+
+</script>
+
+</body>
+</html>
