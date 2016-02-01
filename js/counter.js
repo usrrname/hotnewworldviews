@@ -175,5 +175,3 @@ var target = now + timeLeft * 1000;
 
 setTimeout("update()", 1000);
 display();
-
-
