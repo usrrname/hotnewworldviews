@@ -23,6 +23,7 @@
 <meta name="twitter:image" content="img/hnwv.jpg" />
 
 <title>Hot New World Views</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -35,93 +36,41 @@
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
 
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>
-    body {
-    	border-top:  2em solid #111000;
-    	border-bottom:  2em solid #333222;
-        border-left: 1.75em solid #222;
-        border-right: 1.75em solid #444; 
-        background: url("img/jana.jpg") fixed bottom right no-repeat;
-         background-size: 30%;
-    }
-    
-.page-header{
-    text-align: center;
-    padding-bottom: 3%;
-    font-size: 9em;
-}
-#counter{
-    font-family: "Helvetica Neue", sans-serif;
-    text-align: center;
-    margin-top: 2%}
-
-.bio{
-    font-family: "Helvetica Neue", sans-serif;
-    background-color: #d1d1e0;
-    color: #000;
-    padding:10%;
-}
-.profile{
-    padding: 7%;
-    width: 85%;
-    margin: auto 0px;
-    text-align: center;
-}
-
-.boxshadow{
-    box-shadow: gray 0.5px 2px 2px 2px;
-    margin: auto 0px;
-    margin-right: 1%;
-    margin-left:2%;
-    margin-bottom:3%;
-}
-
-#k2{
-margin-top: 5%;
-}
-
-#iRich{
-background: url("img/euro.jpg") 50% 50% no-repeat;
-background-size: cover;
-color:white;
-padding:5%;
-width:100%;
-box-shadow: gray 1px 1px 1px 5px;
-}
-
-#fold{
-
-}
-
+<style>
 .essay{
     margin-left:20%;
     margin-right:20%;
 }
-
-
+#firstButton{
+margin-top:7%;
+margin-right:30%;
+margin-left:20%;
+position:static;
+z-index: 3;
+}
 </style>
-
 <script src = "js/counter.js"></script>
 </head>
 
 <body>
-<div id = "counter">
-<section id = "fold">
-    <p>Your session expires in:
+
+<div id = "counter"> <p>Your session expires in:
 <span id="countdown"></span></p>
 
-<h1 class = "header">Live Your Life Creatively, One Page At A Time</h1>
-</section>
-</div>
+<div id = "fold">
 
+<h1 id = "headline">Live Your Life Creatively, One Page At A Time</h1><div id = "firstButton" class = "button"><a href="#" class ="ghost-btn">GET INSPIRED </a> </div>
+
+
+
+</div>
+</div>
 <div class = "row container-fluid col-md-12 col-xs-18" style = "padding:3%;">   
 
 <img class ="img-responsive" src="img/hnwv.jpg" alt="hot new world views, a seminal book by jens chan, svea holloway, goran jacotey, pappa modig" style = "position: absolute; display:block; padding:1%;">
@@ -200,8 +149,8 @@ Everything you've been cultured to believe is incongruous with surviving capital
 <img src ="img/banner.jpg" class = "img-responsive boxshadow" width = "60%" style= "margin:auto;"><hr>
 <h3 class = "title" style= "text-align:center;"> WE DO THE WORK OF WRITING HISTORY</h6>
 <div class = "col-md-3">
-<img class = "img-circle profile" width = "100%" src = "img/svea.jpg" alt = "svea holloway" style = "padding:3%;">
-<p class = "bio"><a href="http//shawnemichelainholloway.tumblr.com" target = "_blank">Svea Holloway</a> is a familiar stranger with hypnotic seduction.  Looking for love from Chicago to Paris. Her strengths are roses, poetry, noise music, the French New Wave, and endless rope for mean men. No fats, no feemes... just kidding! Thou shalt not seek drugs. Yet if they are there, drugs seem to do her. It's all about CONTROL. Svea knows how to take you to the moon and back. She's making a list and checking you out twice. A smooth and supple liquid containing cherry and chocolatey aromas. Baby you're a song, you make me want to roll my windows down, and cruise.</p>
+<img class = "img-circle profile" src = "img/svea.jpg" alt = "svea holloway">
+<p class = "bio"><a href="http//shawnemichelainholloway.tumblr.com" target = "_blank">Svea Holloway</a> is a familiar stranger with hypnotic seduction.  Looking for love from Chicago to Paris. Her strengths are roses, poetry, noise music, the French New Wave, and endless rope for mean men. No fats, no feemes... just kidding! Thou shalt not seek drugs. Yet if they are there, drugs seem to do her. It's all about CONTROL. Svea knows how to take you to the moon and back. She's making a list and checking you out twice. A smooth and supple liquid containing cherry and chocolatey aromas. Baby you're a song, you make me want to roll my windows down, and cruise.<img src = "img/svea2.jpg" class = "img-circle profile"></p> 
 </div>
 
 <div class = "col-md-3">
@@ -215,7 +164,7 @@ Everything you've been cultured to believe is incongruous with surviving capital
     <p class = "bio"><a href= "http://www.kimmomodig.com" target = "_blank">Pappa Modig</a> (White Mage, human) is an orphan who was raised by several IT service desk clerks in Northwest Sweden. This is why he has a flair for tech talk and geekspeak, and has +30% +1d6 to all attempts on help desk calls. Pappa is equipped with the Ring of Relativity (Protection from Careerism, +10 to cocktail talk), and Sony Xperia Z3 mobile phone. They have huge bonuses for all saving throws when needed to escape an opening party. Alas, Pappa can't really handle drugs or druggy socializing due to the strict Northern European diet and has -50% on poisoning and Agreeing to Follow Hippies to Second Location. In battle, Pappa opts for long-distant weapons: Optic Fibre Staff of Online Collaboration, and spells such as Word Of Mouth and Infinite Negativity. </p></div>
 
 <div class = "col-md-3"><img src = "img/jens.jpg" class = "img-circle profile">
-<p class = "bio"><a href"http://jennifer-chan.com" target = "_blank">Jens Chan </a> became a certified hater in 2016. She tries her best to adapt to social moors of neurotypical capitalism. Her Myers Briggs type shifted from INTP to INTJ in a matter of 3 years. She is likely to give you a good reason for hating anything you bring up. Jens puts her commitments front and center. Leadership, leadership, leadership. There's no (time for) "you" on her team. She's quite capable of charming you but most days she lacks the serotonin to self motivate for teamplay. It's not because she is contrarian. Her vices are naps, nicotine gum, and correcting punctuation and grammar. She considers none of the above to be weaknesses, but rather cut-and-dry lifestyle decisions that have defined her current success. </p>
+<p class = "bio"><a href = "http://jennifer-chan.com" target = "_blank">Jens Chan </a> became a certified hater in 2016. She tries her best to adapt to social moors of neurotypical capitalism. Her Myers Briggs type shifted from INTP to INTJ in a matter of 3 years. She is likely to give you a good reason for hating anything you bring up. Jens puts her commitments front and center. Leadership, leadership, leadership. There's no (time for) "you" on her team. She's quite capable of charming you but most days she lacks the serotonin to self motivate for teamplay. It's not because she is contrarian. Her vices are naps, nicotine gum, and correcting punctuation and grammar. She considers none of the above to be weaknesses, but rather cut-and-dry lifestyle decisions that have defined her current success. </p>
 </div>
 </div>
 

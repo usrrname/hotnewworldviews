@@ -1,0 +1,124 @@
+/*ghost button*/
+
+.ghost-btn {
+  font-family: "Helvetica", sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  border: 1.7px solid #eeeeee;
+  height: 1.5em;
+  line-height: 19px;
+  color: #ffffff;
+  margin: 0px auto;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 2px;
+  background-clip: padding-box;
+  font-size: 1em;
+  padding: 1em 1.5em;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background: transparent;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  zoom: 1;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+}
+.ghost-btn:hover {
+  -webkit-transition: 0.4s ease;
+  -moz-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease;
+  background-color: red;
+  opacity:0.7;
+  text-decoration: none;
+  color: #333;
+}
+.ghost-btn:focus {
+  outline: none;
+}
+
+
+/*HTML*/
+body{
+      border-top:  2em solid #111000;
+      border-bottom:  2em solid #333222;
+        border-left: 1.75em solid #222;
+        border-right: 1.75em solid #444; 
+        background: url("../img/jana.jpg") fixed bottom right no-repeat;
+         background-size: 30%;
+    }
+    
+.page-header{
+    text-align: center;
+    padding-bottom: 3%;
+    font-size: 9em;
+}
+
+
+.bio{
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #d1d1e0;
+    color: #000;
+    margin:1%;
+    padding: 10%;
+}
+.profile{
+    padding: 7%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.boxshadow{
+    box-shadow: gray 0.5px 2px 2px 2px;
+    margin-top:0px;
+    margin-right: 1%;
+    margin-left:2%;
+    margin-bottom:3%;
+}
+
+#k2{
+margin-top: 5%;
+}
+
+#iRich{
+background: url("../img/euro.jpg") 50% 50% no-repeat;
+background-size: cover;
+color:white;
+padding:5%;
+width:100%;
+box-shadow: gray 1px 1px 1px 5px;
+}
+
+#headline{
+    padding-top: 10%;
+    text-align: center;
+    z-index: 2;
+    color:white;}
+
+#counter{
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    background-color: palegreen;
+    z-index:1;
+margin-bottom:0;}
+
+#fold{
+margin-top: 0; 
+margin-left: 0; 
+  max-width: 2500px;
+  min-width: 720px;
+  min-height: 768px;
+background: url('../img/keyboard.jpg') 50% 75% fixed no-repeat;
+background-size: cover;
+z-index: 0;
+box-shadow: #000 0px 9px 20px 15px;
+}
