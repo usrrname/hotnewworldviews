@@ -22,10 +22,14 @@ var roundTo = 1;
 var warnRoundTo = 5;
 var alarmRoundTo = 1;
 
+var now = new Date();
+now = now.getTime();
+var target = now + timeLeft * 1000;
+
 function SessionExpireEvent()
 {   
     alert("Session expired");
-    window.location.assign("http://boingboing.net");
+    window.location.assign("http://linkedin.com");
 }
 
 function update(){
@@ -133,7 +137,8 @@ for (i = 0; i < nvPairs.length; i++){
     var value = nvPair[1];
     dictionary[name] = value;}
     
-
+setTimeout("update()", 1000);
+display();
 //
 // Pick out all variable values that we allow to be controlled from
 // the URL
@@ -162,9 +167,6 @@ warnRoundTo = +dictionary['warnRoundTo'];
 alarmRoundTo = +dictionary['alarmRoundTo'];
 
 
-var now = new Date();
-now = now.getTime();
-var target = now + timeLeft * 1000;
 
 // document.write("<center><span id='countdown' "
 //   + "style='background-color:" + normalBackColor
@@ -173,5 +175,4 @@ var target = now + timeLeft * 1000;
 //   + "; font-family: " + timerFont 
 //   + "'> + </span></center>");
 
-setTimeout("update()", 1000);
-display();
+
