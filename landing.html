@@ -45,11 +45,6 @@
 
 <style>
 
-.essay{
-    margin-left:15%;
-    margin-right:15%;
-}
-
 #firstButton{
     margin-top:10%;
     position:relative;
@@ -72,15 +67,19 @@
 
 </head>
 
-<body class="container-fluid col-md-12" id="main">
-    
-    
+<body class="col-md-12" id="main">
+    <div class = "row">
+        <div class = "container-fluid">
+
     <div id = "counter" class = "landing-layout"> <h6>Your session expires in&nbsp;<span id="countdown"></span></h6>
 <div id = "fold" class = "row">
             <h1 id = "headline" class = "m-type-display-1">Live Your Life Creatively, One Idea At A Time</h1><div id = "firstButton" class = "button" onlick="smoothState()"><a href="#anarchy" class ="ghost-btn">GET INSPIRED </a> </div>
         </div>
     </div>
-    <div id = "anarchy" class = "row">
+        </div>
+    </div>
+
+<div id = "anarchy" class = "row">  
     <div class = "col-md-12">   
         <img src = "img/books.png" width = "100%" style = "margin-top: 10%; margin-bottom: 10%;">
     </div>
@@ -117,8 +116,8 @@
 
     <img src="img/games.jpg" class="img-responsive boxshadow" alt="pappa modig" width="40%" style = "margin-top:10%; margin-left:35%; margin-right: 35%; width: 30%;">
 </div>
-<div class = "row">
-    <div id = "why" class = "col-md-12">
+<div id = "why" class = "row">
+    <div class = "col-md-12">
             <h2 class ="page-header">W is for Why</h2>
             <p> A creative career is a minefield of moving targets. Rarely we do things for a good reason, but many are the times when we exercise obedience at the altar of conventions. Starry-eyed under a bleak, mute Nordic sky, waiting for rain when the forecast has been dead set on a permanent dry season for you and your peers. But another sun rises and we go to work or try to find it, and we stick to the ideals picked up from MIT books when we were 19. No matter how hard it is to stay awake, cut dairy, pay rent and buy local, creativity always presents itself as a career, a hobby, an unwritten novel. Perhaps a casual Sunday afternoon in the woodshop instead of low budget flights to self-funded art fair booths where no one comes to buy your product. There are no missed chances, there are only more new opportunities. It's Creativity: you're living it!</p>
             <img src= "img/bed.jpg" class = "img-responsive boxshadow">
@@ -140,9 +139,12 @@
     </div>
 
   <div class = "row">
-            <div class = "col-md-12 container-fluid"> 
+    <div class = "container-fluid">
+            <div class = "col-md-12"> 
             <section id ="end" class = "clearfix">
-<img src ="img/banner.jpg" class = "img-responsive boxshadow" style= "text-align:center; margin-top:4%">
+
+        <img src ="img/banner.jpg" class = "img-responsive boxshadow" style= "text-align:center; margin-top:4%">
+
             <h3 class = "page-header" style= "text-align:center; color:white; margin-top:5%; margin-bottom: 5%;"> WE REWRITE HISTORY</h3>
 
                 <div id = "lastButton" class = "button" onlick=""><a href="documentation.html" target = "_mainframe" class ="ghost-btn">PROOF OF LABOR </a>
@@ -168,6 +170,7 @@
         </div>
         </div>
         </div>
+    </div>
         </div></div>
         <script src = "js/counter.js"></script>
         <script src = "js/jquery.smoothState.min.js"></script>
