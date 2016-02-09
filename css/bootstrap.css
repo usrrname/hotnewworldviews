@@ -1633,7 +1633,6 @@ pre code {
 .col-md-12, .col-xs-12, .col-sm-12, .col-lg-12{
   position:relative;
   min-height: 1px;
-  min-width: 100%;
   padding-right: 0px;
   padding-left: 0px;
 }
@@ -1968,7 +1967,7 @@ pre code {
     padding: 0px;
   }
   .col-md-12 {
-    width: 98%;
+    width: 100%;
   }
   .col-md-11 {
     width: 91.66666667%;
