@@ -57,7 +57,7 @@
 
 
 /*HTML*/
-body{margin:0;
+body{ margin:0px;
 /*      border-top:  0.5 solid #111000;*/
 /*      border-bottom:  2em solid #333222;
         border-left: 1.75em solid #222;
@@ -76,6 +76,7 @@ body{margin:0;
   max-width:371px;
   padding:0;margin:0;text-align:center;
 }
+
 .page-header{
     text-align: center;
     font-size: 4em;
@@ -131,7 +132,7 @@ margin-top: 5%;
     min-width: 360px;
     max-width: 100%;
     min-height:40px;
-        margin-left: 0;
+    margin-left: 0;
     margin-right: 0;
     margin-bottom:0;
     padding-top:0.5%;
@@ -142,7 +143,7 @@ margin-top: 5%;
 #fold{
 margin-left:0;
 margin-right:0;
-min-width: 360px;
+min-width: 381px;
 min-height: 768px;
 background: url('../img/keyboard.jpg') 50% 75% fixed no-repeat;
 background-size: cover!important;
@@ -154,49 +155,11 @@ overflow: hidden;
 #end{
 margin-top: 0; 
 margin-left: 0; 
-max-width: 100%;
-min-width: 360px;
+min-width: 381px;
+min-height: 768px;
 background: url('../img/euro.jpg') 50% 50% fixed no-repeat;
 background-size: cover!important;
 z-index: 0;
 overflow: hidden;
 box-shadow: #red 20px 19px 40px 10px;
-}
-
-/*
- * Keyframes
- */
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    transform: translate3d(100%, 0, 0);
-  }
-
-  100% {
-    opacity: 1;
-    transform: none;
-  }
 }

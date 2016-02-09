@@ -1420,8 +1420,12 @@ a.bg-danger:focus {
 }
 .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  position: relative;
+  text-align: center;
+  font-size: 3.5em;
   border-bottom: 1px solid #eee;
+  display: block;
+  min-width: 381px;
 }
 ul,
 ol {
@@ -1622,8 +1626,9 @@ pre code {
 }
 .row {
   position:relative;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 0px;
+  margin-left: 0px;
+  overflow: hidden;
 }
 .col-md-12, .col-xs-12, .col-sm-12, .col-lg-12{
   position:relative;
@@ -1960,10 +1965,10 @@ pre code {
 }
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
+    padding: 0px;
   }
   .col-md-12 {
-    width: 100%;
+    width: 98%;
   }
   .col-md-11 {
     width: 91.66666667%;
