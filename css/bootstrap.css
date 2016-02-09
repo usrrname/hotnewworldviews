@@ -1422,10 +1422,10 @@ a.bg-danger:focus {
   padding-bottom: 9px;
   position: relative;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 3.4em;
   border-bottom: 1px solid #eee;
   display: block;
-  min-width: 381px;
+  min-width: 360px;
 }
 ul,
 ol {
@@ -1492,9 +1492,8 @@ abbr[data-original-title] {
 blockquote {
   padding: 20px 30px 20px 40px;
   text-align: justify;
-  margin-left:17%;
+  margin-left:18%;
   font-size: 17.5px;
-  border-left: 5px hidden #eee;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -1963,11 +1962,13 @@ pre code {
   }
 }
 @media (min-width: 992px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
     padding: 0px;
   }
   .col-md-12 {
     width: 100%;
+    padding: 0px;
+    float:left;
   }
   .col-md-11 {
     width: 91.66666667%;

@@ -118,7 +118,7 @@ margin-top: 5%;
   text-align: center;
   background-color: #77A;
   z-index:1;
-  min-width: 381px;
+  min-width: 360px;
   min-height:40px;
   margin-left: 0;
   margin-right: 0;
@@ -131,7 +131,7 @@ margin-top: 5%;
 #fold{
 margin-left:0;
 margin-right:0;
-min-width: 381px;
+min-width: 360px;
 min-height: 768px;
 background: url('../img/keyboard.jpg') 50% 75% fixed no-repeat;
 background-size: cover!important;
@@ -142,7 +142,7 @@ box-shadow: #000 10px 9px 20px 2px;
 #end{
 margin-top: 0; 
 margin-left: 0; 
-min-width: 381px;
+min-width: 360px;
 min-height: 768px;
 background: url('../img/euro.jpg') 50% 50% fixed no-repeat;
 background-size: cover!important;
