@@ -55,16 +55,40 @@ body{
 margin:0px;
 background: url("../img/jana.jpg") fixed bottom right no-repeat;
 background-size: 30%;
-    }
+}
 
+#pop_over {
+display: none;
+}
+
+@media only screen and (max-width: 359px) {
+
+#pop_over {
+    top: 0;
+    left: 0;
+    display: block;
+    position: fixed;
+    width: 80%;
+    height: 90%;
+    background: rgba(106, 106, 106, 0.9);
+    z-index: 999999999;
+    font-family: helvetica;
+    font-size: 66px;
+    line-height: 60px;
+    color: red;
+    padding: 10%;
+    text-align: center;
+    text-shadow: none;
+}
+    
+}
 .getty{
   background-color:#fff;
   display:inline-block;
   font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
   color:#a7a7a7;
   font-size:11px;
-  width:100%;
-  max-width:371px;
+  width:80%;
   padding:0;margin:0;text-align:center;
   border-style: solid inset solid;
   border-width: 4px 5px 4px 5px;
