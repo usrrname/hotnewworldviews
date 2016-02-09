@@ -65,28 +65,33 @@ body{margin:0;
         background: url("../img/jana.jpg") fixed bottom right no-repeat;
          background-size: 30%;
     }
-    
+
+.getty{
+  background-color:#fff;
+  display:inline-block;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color:#a7a7a7;
+  font-size:11px;
+  width:100%;
+  max-width:371px;
+  padding:0;margin:0;text-align:center;
+}
 .page-header{
     text-align: center;
-    font-size: 5em;
-}
-
-#kimmo h2{
-  z-index: 4;
-  background:#333;
-  margin: auto 0px;
-  text-align: center;
+    font-size: 4em;
 }
 
 .bio{
     background-color: #d1d1e0;
     color: #000;
-    width:90%;
+    width:85%;
     font-size: medium;
     margin-right:10%;
     margin-left: 10%;
+    position:relative;
     padding: 7%;
     z-index: 5;
+    overflow: hidden;
 }
 .profile{
     width: 50%;
@@ -143,6 +148,7 @@ background: url('../img/keyboard.jpg') 50% 75% fixed no-repeat;
 background-size: cover!important;
 z-index: 0;
 box-shadow: #000 0px 9px 20px 2px;
+overflow: hidden;
 }
 
 #end{
@@ -153,6 +159,7 @@ min-width: 360px;
 background: url('../img/euro.jpg') 50% 50% fixed no-repeat;
 background-size: cover!important;
 z-index: 0;
+overflow: hidden;
 box-shadow: #red 20px 19px 40px 10px;
 }
 
