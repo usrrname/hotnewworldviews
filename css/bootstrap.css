@@ -1973,6 +1973,7 @@ pre code {
     width: 100%;
     padding: 0px;
     float:left;
+    overflow: scroll; 
   }
   .col-md-11 {
     width: 91.66666667%;
