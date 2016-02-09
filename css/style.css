@@ -1,9 +1,3 @@
-.essay{
-    margin-left:15%;
-    margin-right:15%;
-}
-
-/*ghost button*/
 
 .ghost-btn {
   font-family: "Helvetica Neue", sans-serif;
@@ -57,13 +51,10 @@
 
 
 /*HTML*/
-body{ margin:0px;
-/*      border-top:  0.5 solid #111000;*/
-/*      border-bottom:  2em solid #333222;
-        border-left: 1.75em solid #222;
-        border-right: 1.75em solid #444; */
-        background: url("../img/jana.jpg") fixed bottom right no-repeat;
-         background-size: 30%;
+body{ 
+margin:0px;
+background: url("../img/jana.jpg") fixed bottom right no-repeat;
+background-size: 30%;
     }
 
 .getty{
@@ -75,11 +66,9 @@ body{ margin:0px;
   width:100%;
   max-width:371px;
   padding:0;margin:0;text-align:center;
-}
-
-.page-header{
-    text-align: center;
-    font-size: 4em;
+  border-style: solid inset solid;
+  border-width: 4px 5px 4px 5px;
+  border-color: red;
 }
 
 .bio{
@@ -114,11 +103,11 @@ margin-top: 5%;
 }
 
 #headline{
-    padding-top: 10%;
+
+    padding:8%;
     min-width: 360px;
-    max-width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: center;
     z-index: 2;
     color:white;}
@@ -126,17 +115,16 @@ margin-top: 5%;
 #counter{
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 5px;
-    text-align: center;
-    background-color: #77A;
-    z-index:1;
-    min-width: 360px;
-    max-width: 100%;
-    min-height:40px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom:0;
-    padding-top:0.5%;
-    box-shadow: #000 0px 9px 20px 2px;
+  text-align: center;
+  background-color: #77A;
+  z-index:1;
+  min-width: 381px;
+  min-height:40px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom:0;
+  padding-top:0.5%;
+  box-shadow: #000 10px 9px 20px 2px;
   }
 
 
@@ -148,8 +136,7 @@ min-height: 768px;
 background: url('../img/keyboard.jpg') 50% 75% fixed no-repeat;
 background-size: cover!important;
 z-index: 0;
-box-shadow: #000 0px 9px 20px 2px;
-overflow: hidden;
+box-shadow: #000 10px 9px 20px 2px;
 }
 
 #end{
