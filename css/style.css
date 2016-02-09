@@ -103,9 +103,9 @@ margin-top: 5%;
 }
 
 #headline{
-
-    padding:8%;
-    min-width: 360px;
+    margin-top: 5%;
+    padding:5%;
+    min-width: 381px;
     margin-left: 2%;
     margin-right: 2%;
     text-align: center;
