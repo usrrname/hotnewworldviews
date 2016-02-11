@@ -64,8 +64,8 @@ display: none;
 @media only screen and (max-width: 359px) {
 
 #pop_over {
-    top: 0;
-    left: 0;
+    top: 10%;
+    left: 10%;
     display: block;
     position: fixed;
     width: 80%;
@@ -73,8 +73,7 @@ display: none;
     background: rgba(106, 106, 106, 0.9);
     z-index: 999999999;
     font-family: helvetica;
-    font-size: 66px;
-    line-height: 60px;
+    font-size: 3.5em;
     color: red;
     padding: 10%;
     text-align: center;
