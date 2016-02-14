@@ -93,6 +93,7 @@ display: none;
   border-style: solid inset solid;
   border-width: 4px 5px 4px 5px;
   border-color: red;
+  margin-bottom: 10%;
 }
 
 .bio{
@@ -161,6 +162,16 @@ background: url('../img/keyboard.jpg') 50% 75% fixed no-repeat;
 background-size: cover!important;
 z-index: 0;
 box-shadow: #000 10px 9px 20px 2px;
+}
+
+#doc{
+margin-left:0;
+margin-right:0;
+min-width: 360px;
+min-height: 768px;
+background: url('../img/fish.jpg') 50% 50% fixed no-repeat;
+background-size: cover!important;
+z-index: 0;
 }
 
 #end{
