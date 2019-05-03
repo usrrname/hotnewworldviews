@@ -7,6 +7,12 @@
   z-index: -5;
 }
 
+.img--responsive {
+  width: 90%;
+  display: block;
+  position: relative;
+}
+
 .site__div--popover {
   display: none;
 }
@@ -95,7 +101,7 @@
 
 .img--shadow {
   box-shadow: gray 0.5px 2px 2px 2px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 3%;
 }
 
@@ -152,6 +158,13 @@
 }
 
 @media all and (max-width: 576px) {
+  .row__background {
+    width: 100%;
+  }
+
+  img {
+    max-width: 550px;
+  }
 
   .site__div--popover {
     top: 10%;
